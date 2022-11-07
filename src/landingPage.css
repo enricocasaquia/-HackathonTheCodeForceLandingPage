@@ -1,0 +1,76 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-pacote {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.primeira-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.primeira-div a {
+    text-decoration: none;
+    color: gray;
+}
+
+.primeira-div a:hover {
+    color: #000000;
+}
+
+span {
+    font-size: 20px;
+}
+
+.segunda-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+
+.segunda-div img {
+    width: 100%;
+}
+
+.faq-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.faq-div li {
+    list-style: none;
+}
+
+.faq-clientes {
+    margin-right: 10rem;
+}
+
+details p {
+    text-align: justify;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .texto-pacote {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .segunda-div {
+        margin-left: 0px;
+    }
+
+    .segunda-div img {
+        width: 30rem;
+    }
+
+    .faq-div {
+        flex-direction: column;
+    }
+}
